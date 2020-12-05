@@ -12,11 +12,10 @@
   <title>sample..........</title>
 
   <!-- <link rel="shortcut icon" href="favicon.png" type="image/x-icon"> -->
-
   <link rel="stylesheet" href="maicons.css">
 
   <link rel="stylesheet" href="animate.css">
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="owl.carousel.min.css">
   
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -31,7 +30,7 @@
 <nav class="navbar navbar-expand-lg navbar-light navbar-floating">
   <div class="container">
     <a class="navbar-brand" href="#">
-      <img src="favicon.png" alt="" width="40">
+      <img src="Untitled design (3).png" alt="" width="59">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -41,8 +40,8 @@
       <ul class="navbar-nav ml-lg-5 mt-3 mt-lg-0">
         <li class="nav-item dropdown active">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item active" href="index.html">Homepage </a>
+          <div >
+            <!-- <a class="dropdown-item active" href="index.html">Homepage </a> -->
             <!-- <a class="dropdown-item" href="index-2.html">Homepage 2</a> -->
           </div>
         </li>
@@ -50,28 +49,33 @@
           <a class="nav-link" href="about.html">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="updates.html">What's New</a>
+          <a class="nav-link" href="updates.html">Upload Doc</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
-        <li>   <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-blue w3-medium">Login</button>
+        <li class="nav-item" style="color:blue; font-weight:500;">
+          <a class="nav-link" href="signup.html">Sign up</a>
+        </li>
+        <li>   <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-blue w3-medium rounded-pill">Login</button>
 
           <div id="id01" class="w3-modal">
             <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
           
               <div class="w3-center"><br>
                 <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-xlarge w3-transparent w3-display-topright" title="Close Modal">×</span>
-                <img src="img_avatar4.png" alt="Sample" style="width:30%" class="w3-circle w3-margin-top">
+                <img src="Untitled design (3).png" alt="Sample" style="width:30%" class="w3-circle w3-margin-top">
               </div>
         
               <form class="w3-container" action="/action_page.php">
                 <div class="w3-section">
-                  <label><b>Username</b></label>
-                  <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="usrname" required>
+                  <label><b style="z-index: inherit 2;">Username</b></label>
+                  <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="usrname" >
                   <label><b>Password</b></label>
-                  <input class="w3-input w3-border" type="text" placeholder="Enter Password" name="psw" required>
-                  <button class="w3-button w3-block w3-red w3-section w3-padding" type="submit" >Login</button>
+                  <input class="w3-input w3-border" type="text" placeholder="Enter Password" name="psw" >
+                  <button class="w3-button w3-block w3-red w3-section w3-padding rounded-pill type="submit">Login</button>
+                <!-- <a href="signup.html">  <button   class="btn w3-block w3-purple w3-section w3-padding rounded-pill"  >Sign up</button></a> -->
+              
                   <input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Remember me
                 </div>
               </form>
@@ -84,6 +88,7 @@
             </div>
           </div>
         </li>
+       
       </ul>
       <div class="ml-auto my-2 my-lg-0">
         <button class="btn btn-dark rounded-pill">Dashboard</button>
@@ -155,7 +160,7 @@
         <div class="iconic-list">
           <div class="iconic-item wow fadeInUp">
             <div class="iconic-md iconic-text bg-warning fg-white rounded-circle">
-              <span class="mai-cube"></span>
+              <span ><i class="fa fa-cube" aria-hidden="true"></i></span>
             </div>
             <div class="iconic-content">
               <h5>Powerful Features</h5>
@@ -164,7 +169,7 @@
           </div>
           <div class="iconic-item wow fadeInUp">
             <div class="iconic-md iconic-text bg-info fg-white rounded-circle">
-              <span class="mai-shield"></span>
+              <span ><i class="fa fa-shield" aria-hidden="true"></i></span>
             </div>
             <div class="iconic-content">
               <h5>Fully Secured</h5>
@@ -173,7 +178,7 @@
           </div>
           <div class="iconic-item wow fadeInUp">
             <div class="iconic-md iconic-text bg-indigo fg-white rounded-circle">
-              <span class="mai-desktop-outline"></span>
+              <span class="#"><i class="fa fa-desktop" aria-hidden="true"></i></span>
             </div>
             <div class="iconic-content">
               <h5>Easy Monitoring</h5>
@@ -275,8 +280,8 @@
       <div class="col-lg-5 mb-5 mb-lg-0 wow fadeInUp">
         <h1 class="mb-4">Pricing Plan</h1>
         <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores inventore maxime ipsa eligendi quibusdam velit maiores adipisci odit, exercitationem cumque iusto at debitis reiciendis a, ipsum aliquam reprehenderit. Sed, delectus.</p>
-        <a href="#" class="btn btn-gradient btn-split-icon rounded-pill">
-          <span class="icon mai-call-outline"></span> Custom Plan
+        <a href="#" class="btn btn-gradient btn-split-icon rounded-pill w3-padding">
+          <span class="icon mai"><i class="fa fa-phone" aria-hidden="true"></i></span> Custom Plan
         </a>
       </div>
       <div class="col-lg-7">
@@ -327,13 +332,13 @@
         <p class="fs-large font-italic">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia voluptates facere explicabo! Rerum necessitatibus cum qui veritatis reprehenderit, neque sapiente consequatur atque eaque molestias, est, quod totam quo laudantium ratione.</p>
         <p class="fs-large fg-grey fw-medium mb-5">John Doe, UI Designer</p>
 
-        <a href="#" class="btn btn-outline-light rounded-pill">Read Stories <span class="mai-chevron-forward"></span></a>
+        <a href="#" class="btn btn-outline-light rounded-pill">Read Stories <span class="mai"><i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
       </div>
     </div>
   </div>
 </div>
 
-<div class="page-section">
+<div class="page-section" id="contact">
   <div class="container">
     <div class="row">
       <div class="col-lg-7 py-3 mb-5 mb-lg-0">
@@ -409,17 +414,17 @@
           <div class="input-group">
             <input type="text" class="form-control" placeholder="Your email..">
             <div class="input-group-append">
-              <button type="submit" class="btn btn-primary"><span class="mai-send"></span></button>
+              <button type="submit" class="btn btn-primary"><span><i class="fa fa-forward" aria-hidden="true"></i></span></button>
             </div>
           </div>
         </form>
 
         <!-- Social Media Button -->
         <div class="mt-4">
-          <a href="#" class="btn btn-fab btn-primary fg-white"><span class="mai-logo-facebook"></span></a>
-          <a href="#" class="btn btn-fab btn-primary fg-white"><span class="mai-logo-twitter"></span></a>
-          <a href="#" class="btn btn-fab btn-primary fg-white"><span class="mai-logo-instagram"></span></a>
-          <a href="#" class="btn btn-fab btn-primary fg-white"><span class="mai-logo-google"></span></a>
+          <a href="#" class="btn btn-fab btn-primary fg-white"><span ><i class="fa fa-angle-facebook" aria-hidden="true"></i></span></a>
+          <a href="#" class="btn btn-fab btn-primary fg-white"><span ><i class="fa fa-angle-twitter" aria-hidden="true"></i></span></a>
+          <a href="#" class="btn btn-fab btn-primary fg-white"><span ><i class="fa fa-angle-instagram" aria-hidden="true"></i></span></a>
+          <a href="#" class="btn btn-fab btn-primary fg-white"><span ><i class="fa fa-angle-google" aria-hidden="true"></i></span></a>
         </div>
       </div>
     </div>
@@ -430,7 +435,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 col-md-6 py-2">
-        <!-- <img src="favicon-light.png" alt="" width="40"> -->
+        <img src="Untitled design (3).png" alt="" width="50">
      
         <p class="d-inline-block ml-2">Copyright &copy; <a href="https://www.sample.com/" class="fg-white fw-medium">Sample ID</a>. All rights reserved</p>
       </div>
