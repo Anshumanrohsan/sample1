@@ -352,3 +352,8 @@
       margin: 10px;
   margin-left: 30px;
   }
+  @media (min-width: 576px) {
+    .cont_form_login .cont_form_sign_up {
+     margin: 1500px;
+    }
+  }
